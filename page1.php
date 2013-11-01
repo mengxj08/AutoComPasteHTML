@@ -24,37 +24,79 @@ setcookie("user", $user, time()+(3600*3)); // time of expiration is 3 hours
 ?>
 <html>
 <head>
-    <title>Experiment Run Template 1</title>
+    <title>AutoComPaste Experiment</title>
 </head>
 <body>
-<div>
-    <p>
-        This part of the interface collects whatever pre-test information (ie demographic and all) that you need.
-    </p>
-
-</div>
-<div>
-    <p>Please put all information needed for: <?php echo $user; ?> </p>
+	<div align="center">
+		<a href="http://hci.comp.nus.edu.sg/index.html"><img src="image/lab.png"></a>
+		<hr/>	
+	</div>
+	<div align="center">
+		<font size="+2" color="#FF0033" face="Georgia, Times New Roman, Times, serif"> Welcome to the AutoCompaste vs Traditional-copy-paste experiment! </font>
+		<br /><br />
+		<br /><br />
+		<br /><br />
+	</div>	
+<div align="center">
     <form action="page2.php" method="post">
-        <span>Information 1</span><input type="text" name="var1" /><br/>
-        <span>Information 2</span><br/>
-        <input type="radio" name="var2" value="1">Option 1<br/>
-        <input type="radio" name="var2" value="2">Option 2<br/>
-        <span>Information 3</span><br/>
-        <input type="checkbox" name="var3" value="a">Option 1<br/>
-        <input type="checkbox" name="var3" value="b">Option 2<br/>
-        <span>Information 4</span><br/>
-        <select name="var4">
-            <option value="1a">Option A</option>
-            <option value="2b">Option B</option>
-            <option value="3c">Option C</option>
-            <option value="4d">Option D</option>
-        </select><br/>
-        <span>Information 5</span>
-        <textarea name="var5" rows="10" cols="30">
-This is a information type essay
-        </textarea><br/>
-        <input id="submit" type="submit" value="submit">
+	<table>
+		<tr style="text-align:center">
+			<div> <font size="+1">Please input your personal informational needed for Participant <?php echo $user; ?> </font></div>
+			<br />
+		</tr>
+		
+		<tr height="35px">
+			<td style="width:auto" align="left">
+				<font style="font-weight:bold">Name: </font>
+			</td>
+			<td>
+				<input type="text" class="Inputtext" name="name" value="XXX">
+			</td>
+		</tr>
+		
+		<tr height="35px">
+		<td style="width:auto" align="left">
+			<font style="font-weight:bold">Sex: </font>
+		</td>
+		<td>	
+			<select name="sex" style="width:auto">
+					<option value="female">Female</option>
+					<option value="male">Male</option>
+			</select>		
+		</td>
+		</tr>
+		
+		<tr height="35px">
+		<td style="width:auto" align="left">
+			<font style="font-weight:bold">Age: </font>
+		</td>	
+		<td>	
+			<select name="age" style="width:auto">
+					<option value="< 20"> < 20 </option>			
+					<option value="20-25"> 20-25</option>
+					<option value="26-30"> 26-30</option>
+					<option value="31-35"> 31-35</option>
+					<option value="36-40"> 36-40</option>
+					<option value="> 40"> > 40</option>
+			</select>	
+		</td>
+		</tr>
+		
+		<tr height="35px">
+			<td>
+				<font style="font-weight:bold">Occupation: &nbsp </font>
+			</td>
+			<td>
+				<input type="text" class="Inputtext" name="occupation" name="txt_input" value="XXX">
+			</td>
+		</tr>
+	</table>
+	<table>
+		<br /><br />
+		<td>
+			<input id="submit" type="submit" style="width:100px; height:30px; font-weight:bold; font-size:20px" value="submit">
+		</td>
+	</table>
     </form>
 </div>
 

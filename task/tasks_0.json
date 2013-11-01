@@ -1,0 +1,160 @@
+{
+    "data": {
+        "acp": [
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "isolated CP"],
+                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
+                "Stimuli": "frequencies"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "isolated CP"],
+                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
+                "Stimuli": "frequencies"
+
+            },
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "isolated CP"],
+                "Instruction": "Please copy-paste using ACP and using this sentence from one of the opened document window",
+                "Stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "isolated CP"],
+                "Instruction": "Please copy-paste using ACP and using this sentence from one of the opened document window",
+                "Stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system."
+            },
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "isolated CP"],
+                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
+                "Stimuli": "What is active filter ? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies. What is active region ? The region of BJT operation between saturation and cut off used for linear amplification."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "isolated CP"],
+                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
+                "Stimuli": "What is active filter ? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies. What is active region ? The region of BJT operation between saturation and cut off used for linear amplification."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "typing before CP"],
+                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
+                "Stimuli": "frequencies"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "typing before CP"],
+                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
+                "Stimuli": "frequencies"
+
+            },
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "typing before CP"],
+                "Instruction": "Please copy-paste using ACP and using this sentence from one of the opened document window",
+                "Stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "typing before CP"],
+                "Instruction": "Please copy-paste using ACP and using this sentence from one of the opened document window",
+                "Stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system."
+            },
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "typing before CP"],
+                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
+                "Stimuli": "What is active filter ? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies. What is active region ? The region of BJT operation between saturation and cut off used for linear amplification."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "typing before CP"],
+                "Instruction": "Please copy-paste using ACP and using this phrase from one of the opened document window",
+                "Stimuli": "What is active filter ? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies. What is active region ? The region of BJT operation between saturation and cut off used for linear amplification."
+            }
+        ],
+        "xwindow": [
+                       {
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "isolated CP"],
+                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
+                "Stimuli": "frequencies"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "isolated CP"],
+                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
+                "Stimuli": "frequencies"
+
+            },
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "isolated CP"],
+                "Instruction": "Please copy-paste using XWindow and using this sentence from one of the opened document window",
+                "Stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "isolated CP"],
+                "Instruction": "Please copy-paste using XWindow and using this sentence from one of the opened document window",
+                "Stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system."
+            },
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "isolated CP"],
+                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
+                "Stimuli": "What is active filter ? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies. What is active region ? The region of BJT operation between saturation and cut off used for linear amplification."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "isolated CP"],
+                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
+                "Stimuli": "What is active filter ? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies. What is active region ? The region of BJT operation between saturation and cut off used for linear amplification."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "typing before CP"],
+                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
+                "Stimuli": "frequencies"
+
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Phrase", "typing before CP"],
+                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
+                "Stimuli": "frequencies"
+
+            },
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "typing before CP"],
+                "Instruction": "Please copy-paste using XWindow and using this sentence from one of the opened document window",
+                "Stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Sentence", "typing before CP"],
+                "Instruction": "Please copy-paste using XWindow and using this sentence from one of the opened document window",
+                "Stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system."
+            },
+            {
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "typing before CP"],
+                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
+                "Stimuli": "What is active filter ? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies. What is active region ? The region of BJT operation between saturation and cut off used for linear amplification."
+            },
+			{
+                "title": "Copy-paste Experiment",
+                "var": ["Paragraph", "typing before CP"],
+                "Instruction": "Please copy-paste using XWindow and using this phrase from one of the opened document window",
+                "Stimuli": "What is active filter ? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies. What is active region ? The region of BJT operation between saturation and cut off used for linear amplification."
+            }
+        ]
+    }
+}

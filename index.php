@@ -13,17 +13,21 @@
     <title>Experiment Run Template 1</title>
 </head>
 <body>
-    <div>
+	<div align="center">
+		<a href="http://hci.comp.nus.edu.sg/index.html"><img src="image/lab.png"></a>
+		<hr/>	
+	</div>
+	<div align="center">
+		<font size="+2" color="#FF0033" face="Georgia, Times New Roman, Times, serif"> Welcome to the AutoCompaste vs Traditional-copy-paste experiment! </font>
+		<br /><br />
+	</div>	
+    <div align="center">
         <p>
-            The startup interface provides the basic instructions to your participants,
-            and also collect input from the participant/experimenter
-            the participant ID so that you can generate the correct data log for a particular experiment session.
-        </p>
-        <p>
-            This is a template. Please write your participant number ID given by your experimenter:
+            <font size="+1">Please write your participant number ID given by your experimenter:</font>
+			<br />
         </p>
     </div>
-    <div>
+    <div align="center">
         <form action="page1.php" method="post">
             <span>Participant ID:</span><input type="text" name="user" />
             <input id="submit" type="submit" value="start">

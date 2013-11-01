@@ -35,15 +35,37 @@ if (!isset($_COOKIE["user"])){
 $user = $_COOKIE["user"];
 
 if (strcmp($interface, "acp")==0) {
-    $msg = "This is the instruction when using AutoComPaste Interface";
+    $msg = "Read the instruction from the experimenter when using AutoComPaste Interface";
     $acpflag = "true";
 } else {
-    $msg = "This is the instruction when using XWindow Interface";
+    $msg = "Read the instruction from the experimenter when using XWindow Interface";
     $acpflag = "false";
 }
 
 require_once("external_files.php");
 
+if($user == "0" || $user == "4" || $user == "8")
+{
+	$tasklist = "tasks_0";
+}
+else if ($user == "1" || $user == "5" || $user == "9")
+{
+	$tasklist = "tasks_1";
+}
+else if ($user == "2" || $user == "6" || $user == "10")
+{
+	$tasklist = "tasks_2";
+}
+else if ($user == "3" || $user == "7" || $user == "11")
+{
+	$tasklist = "tasks_3";
+}
+else
+{
+	$message = "Wrong Participant ID!";
+    header("Location: index.php?message=".$message);
+    exit;
+}
 ?>
 <html>
 <head>
@@ -52,13 +74,13 @@ require_once("external_files.php");
 <body>
 <div>
     <p>
-        There should always be an instruction before doing the actual evaluation of the interface.
+        Before continuing the experiment, you should read the corresponding instruction of the technique you will use.
     </p>
     <p>
        <?php echo $msg; ?>
     </p>
     <form action="interface1.php?user=<?php echo $user; ?>&acp=<?php echo $acpflag; ?>&data=<?php echo $data; ?>&jslist=<?php echo $jslist; ?>&tasklist=<?php echo $tasklist; ?>" method="post">
-        <input id="submit" type="submit" value="start">
+        <input id="submit" type="submit" style="width:100px; height:30px; font-weight:bold; font-size:20px" value="start">
     </form>
 </div>
 
